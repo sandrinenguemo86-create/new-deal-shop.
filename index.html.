@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<<link rel="stylesheet" href="style.css">
+>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Deal Shop - Produit</title>
+</head>
+<body<script src="script.js"></script>
+>
+
+    <header>
+        <h1>New Deal Shop</h1>
+    </header>
+
+    <main>
+        <section class="produit">
+            <h2>Nom du Produit</h2>
+            <img src="https://via.placeholder.com/400" alt="Image du produit">
+            <p class="description">
+                Ceci est une brève description du produit. Il est super, il est neuf, et il est fait pour toi !
+            </p>
+            <p class="prix">19,99 €</p>
+            <button>Ajouter au panier</button>
+        </section>
+    </main   <button id="afficher-panier">Afficher le Panier</button>
+  <aside class="panier-flottant">
+        <h3>Mon Panier</h3>
+        <ul id="liste-panier">
+            </ul>
+        <p>Total : <span id="total-panier">0.00 €</span></p>
+        <button id="bouton-commander">Commander</button>
+    </aside>
+>
+
+    <footer>
+        <p>&copy; 2024 New Deal Shop</p>
+    </footer>
+
+</body>
+</html>
